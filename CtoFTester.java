@@ -12,5 +12,11 @@ public class CtoFTester {
                 celsiusToFahrenheit(0.0) + " degrees Fahrenheit (32)");
     System.out.println(37.7777 + " degrees Celsius is " +
                 celsiusToFahrenheit(37.7777) + " degrees Fahrenheit (100)");
+    System.out.println(32.0 + " degrees Fahrenheit is " +
+                         fahrenheitToCelsius(32.0) + " degrees Celsius(0)");
+    System.out.println(50.0 + " degrees Fahrenheit is " +
+                       fahrenheitToCelsius(50.0) + " degrees Celsius (10)");
+    System.out.println(35.6 + " degrees Fahrenheit is " +
+                        fahrenheitToCelsius(35.6) + " degrees Celsius (2)");
   }
 }
